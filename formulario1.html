@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/estilosformulario1.css">
+  <title>Formulario de Ingreso de Productos</title>
+</head>
+<body>
+  <section class="form-register">
+    <h4>Formulario de Ingreso de Productos</h4>
+    <div>
+        <label for="validationDefault03" class="form-label">Ingrese ID de Prooducto</label>
+        <input class="controls" type="text" name="idProoductos" id="idProoductos" placeholder="Ingrese ID de Prooducto">
+    </div>
+    <div>
+        <label for="validationDefault03" class="form-label">Ingrese Nombre del Producto</label>
+        <input class="controls" type="text" name="nombreProducto" id="nombreProducto" placeholder="Ingrese Nombre del Producto">
+    </div>
+    <div>
+        <label for="validationDefault03" class="form-label">Ingrese el Precio del Producto</label>
+        <input class="controls" type="text" name="precioProcuto" id="precioProcuto" placeholder="Ingrese el Precio del Producto">
+    </div>
+    <div>
+        <label for="validationDefault03" class="form-label">Ingrese el STOCK</label>
+        <input class="controls" type="text" name="stockProducto" id="stockProducto" placeholder="Ingrese el STOCK">
+    </div>
+    <div class="col-md-3">
+        <label for="validationDefault04" class="form-label">Categoría</label>
+        <select class="controls" id="validationDefault04" required>
+          <option selected disabled value="">Seleccione</option>
+          <option>Laptops</option>
+          <option>PCs</option>
+          <option>Celulares</option>
+          <option>Tablets</option>
+        </select>
+    </div>
+    <div id="botones" role="group" aria-label="Button group" > 
+        <button class="botons" id="btn1" type="submit">Aceptar</button>
+        <button class="botons" id="btn1" type="submit">Cancelar</button>
+    </div>
+  </section>
+</body>
+</html>
